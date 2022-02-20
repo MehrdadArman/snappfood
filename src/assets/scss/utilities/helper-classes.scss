@@ -1,0 +1,80 @@
+// text colors
+.text-center {
+  text-align: center;
+}
+
+.text-primary {
+  color: $primary-color;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-danger {
+  color: $text-danger;
+}
+
+.text-grey {
+  color: #979796;
+}
+
+.text-green {
+  color: $green;
+}
+
+// back ground colors
+.bg-light-green {
+  background-color: $light-green;
+}
+
+// fonts size
+.fs-24 {
+  font-size: 24px;
+
+  @include xs {
+    font-size: 18px;
+  }
+  @include sm {
+    font-size: 18px;
+  }
+}
+
+.fs-14 {
+  font-size: 14px;
+
+  @include xs {
+    font-size: 12px;
+  }
+  @include sm {
+    font-size: 12px;
+  }
+}
+
+.font-iran {
+  font-family: IRANSans !important;
+}
+
+// display
+.d-block {
+  display: block;
+}
+.d-flex {
+  display: flex;
+}
+
+// border-radius
+.border-radius {
+  border-radius: 8px;
+}
+
+.w-100 {
+  width: 100%;
+}
+.w-50 {
+  width: 50%;
+}

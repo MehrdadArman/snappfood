@@ -1,0 +1,47 @@
+// THE CARD
+.skeleton-card {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 0;
+  max-width: 100%;
+  background-color: #fff;
+  box-shadow: 0 5px 10px 0 rgba(#000, 0.15);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  width: 100%;
+
+  &__img {
+    padding-bottom: 56.25%;
+    position: relative;
+    img {
+      position: absolute;
+      width: 100%;
+    }
+  }
+
+  &__body {
+    padding: 1rem;
+  }
+
+  &__title {
+    font-size: 1.25rem;
+    line-height: 1.33;
+    font-weight: 700;
+    &.skeleton {
+      min-height: 28px;
+      border-radius: 4px;
+    }
+  }
+
+  &__intro {
+    margin-top: 0.75rem;
+    line-height: 1.5;
+    &.skeleton {
+      // NOTICE THIS
+      min-height: 72px;
+      border-radius: 4px;
+    }
+  }
+}
