@@ -1,0 +1,14 @@
+@import "./fonts.scss";
+@import "./colors.scss";
+@import "./variable";
+@import "./mixins/_media-queries";
+@import "./utilities/index.scss";
+@import "./components.scss";
+@import "./pages/index.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: IRANSans !important;
+  background-color: #efefef;
+}

@@ -1,0 +1,16 @@
+body {
+  overflow-y: hidden;
+}
+.vendors-list {
+  padding: 0px 30rem;
+  @include sm {
+    padding: 0px 1rem;
+  }
+  @include xs {
+    padding: 0px 1rem;
+  }
+  &__virtuallist-wrpper {
+    height: 100vh !important;
+    overflow-y: scroll;
+  }
+}
